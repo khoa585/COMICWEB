@@ -1,0 +1,12 @@
+image: ubuntu:latest
+stages:
+ - build
+job:
+    stage: build 
+    before_script:
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+    script:
+    - ssh-add <(echo "$VPS_PASS")
+    - ssh -o StrictHostKeyChecking=no Phong@52.231.165.21

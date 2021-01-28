@@ -1,0 +1,28 @@
+.select_type_comic {
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+
+    h1{
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 10px;
+        font-weight: 650;
+        color: #2980b9;
+    }
+    .container_flex {
+        div{
+           display: inline-block;
+           width: 50%;
+           line-height: 40px;
+           border-top: 1px solid #dedede;
+           a{
+                color: #333;
+           }
+           a:hover{
+               text-decoration: underline;
+               color: #ff7818d1;
+           }
+        }
+    }
+}

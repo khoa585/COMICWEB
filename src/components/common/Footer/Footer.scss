@@ -1,0 +1,33 @@
+.footer_container{
+    background-color: #2E3436;
+    padding: 20px 0;
+    color: #DDD;
+    margin-top: 20px;
+    .text_content{
+        font-family: 'Roboto Condensed';
+        font-size: 18px;
+        color: #FFF;
+        font-weight: bold;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+    .row_footer {
+        margin-bottom: 10px;
+    }
+    .info_contact {
+        margin-top: 10px;
+        font-size: 14px;
+        a{
+            color:#FFF;
+            margin-left: 10px;
+        }
+        a:hover{
+            background: -webkit-linear-gradient(135deg,#39dfaa 30%,#1ebbf0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .footer_copyright {
+
+    }
+}
